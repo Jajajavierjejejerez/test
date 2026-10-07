@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charms</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 400px;
+            width: 100%;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            text-align: center;
+        }
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+            color: #ffd700;
+        }
+        .subtitle {
+            font-size: 0.9rem;
+            color: #ddd;
+            margin-bottom: 25px;
+        }
+        .menu-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .menu-btn {
+            background: rgba(0, 0, 0, 0.3);
+            color: #fff;
+            padding: 14px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.95rem;
+            transition: all 0.2s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-title;
+            justify-content: space-between;
+        }
+        .menu-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+        .footer {
+            margin-top: 25px;
+            font-size: 0.75rem;
+            color: #bbb;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>✨ Charms ✨</h1>
+    <p class="subtitle">Tap your NFC keychain to explore today's energy</p>
+
+    <div class="menu-list">
+        <a href="songs.html" class="menu-btn">
+            <span>🎵 Songs</span>
+            <span>→</span>
+        </a>
+        <a href="bible.html" class="menu-btn">
+            <span>📖 Bible</span>
+            <span>→</span>
+        </a>
+        <a href="fortune.html" class="menu-btn">
+            <span>🥠 Fortune</span>
+            <span>→</span>
+        </a>
+        <a href="zodiac.html" class="menu-btn">
+            <span>🔮 Zodiac</span>
+            <span>→</span>
+        </a>
+    </div>
+
+    <div class="footer">
+        NFC Charms Collection
+    </div>
+</div>
+
+</body>
+</html>
